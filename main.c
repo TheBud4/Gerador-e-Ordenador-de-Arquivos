@@ -14,6 +14,7 @@ void exibirMenu() {
 }
 
 int main() {
+  
   int op = -1;
 
   while (op != 0) {

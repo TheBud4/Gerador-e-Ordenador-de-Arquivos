@@ -12,7 +12,7 @@ void shuffle(int *array, int size) {
 }
 
 void gerarArquivoDesordenado(int tam) {
-  FILE *random;
+  FILE *desordenado;
   char nomeArquivo[100];
   int *array = malloc((tam + 1) * sizeof(int));
 
@@ -23,12 +23,12 @@ void gerarArquivoDesordenado(int tam) {
   srand(time(NULL));
   shuffle(array, tam + 1);
 
-  sprintf(nomeArquivo, "random_tam:%d.txt", tam);
-  random = fopen(nomeArquivo, "w");
+  sprintf(nomeArquivo, "desordenado_tam:%d.txt", tam);
+  desordenado = fopen(nomeArquivo, "w");
   for (int i = 0; i <= tam; i++) {
-    fprintf(random, "%d\n", array[i]);
+    fprintf(desordenado, "%d\n", array[i]);
   }
-  fclose(random);
+  fclose(desordenado);
   printf("Arquivo desordenado criado com sucesso!\n");
 
   // Libera a memória alocada

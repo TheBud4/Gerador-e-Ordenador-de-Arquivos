@@ -10,6 +10,7 @@
 #include "./OP/Arquivos/GerarArquivoOrdenado.h"
 #include "./OP/Arquivos/GerarArquivoInvertido.h"
 #include "./OP/Arquivos/GerarArquivoDesordenado.h"
+#include "./OP/Arquivos/GerarTodosOsTipos.h"
 
 // Gerar benchmarks
 #include "./OP/Algoritmos/GerarBenchmarkInsertionSort.h"

@@ -65,7 +65,7 @@ void GeradorDeArquivos() {
           while (getchar() != '\n');
           continue;
         }
-       // gerarTodos(tam);
+       gerarTodosOsTipos(tam);
         break;
       case 99:
         printf("\033[H\033[J");  // Função ANSI para limpar a tela

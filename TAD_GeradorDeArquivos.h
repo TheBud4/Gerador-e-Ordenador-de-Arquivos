@@ -5,6 +5,7 @@
     void gerarArquivoDesordenado      (int tam);
     void gerarArquivoOrdenado         (int tam);
     void gerarArquivoInvertido        (int tam);
+    void gerarTodosOsTipos            (int tam);
 
     // Gerar benchmarks
     void gerarBenchmarkHeapSort       (char *nomeArquivo);
