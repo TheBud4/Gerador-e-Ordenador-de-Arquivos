@@ -31,8 +31,6 @@ Os principais objetivos do projeto incluem o entendimento de algoritmos de orden
 
 # Documentação de Testes de Algoritmo
 
-## Resultados de Performance
-
 ### Bubblesort
 
 | X          | 500K        | 750K        | 1Milhão     |
@@ -49,7 +47,7 @@ Os principais objetivos do projeto incluem o entendimento de algoritmos de orden
 | Ordenado   | 0.001069    | 0.001604    | 0.002127    |
 | Invertido  | 237.476304  | 534.137453  | 942.019957  |
 
-## Selection Sort
+### Selection Sort
 
 | X          | 500K        | 750K        | 1Milhão     |
 |------------|-------------|-------------|-------------|
@@ -102,13 +100,11 @@ Os principais objetivos do projeto incluem o entendimento de algoritmos de orden
 
 ## Especificações do Sistema
 
-|------------------------------------|
 | Especificação | Detalhe            |
 |---------------|--------------------|
 | Sistema       | Fedora Linux 40    |
 | Processador   | Intel i7-11800H    |
 | Memória       | 8 GB               |
-|------------------------------------|
 
 ### Notas
 - Os valores estão em segundos e foram medidos em diferentes tamanhos de conjunto de dados.
