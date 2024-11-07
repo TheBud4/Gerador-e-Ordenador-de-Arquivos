@@ -19,15 +19,6 @@ Os principais objetivos do projeto incluem o entendimento de algoritmos de orden
 3. Compile o programa utilizando o compilador de sua preferência.
 4. Execute o programa através da linha de comando, seguindo as instruções fornecidas.
 
-## Exemplo de Uso
-
-```sh
-# Gerar um arquivo com 1000 números em ordem aleatória
-./gerador -t 1000 -o aleatoria -f numeros.txt
-
-# Ordenar o arquivo gerado utilizando Quick Sort
-./ordenador -a quicksort -i numeros.txt -o numeros_ordenados.txt
-```
 
 # Documentação de Testes de Algoritmo
 
