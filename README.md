@@ -40,6 +40,12 @@ Se você estiver utilizando outro compilador, ajuste o comando conforme necessá
 ```bash
 ./meu_programa
 ```
+## Compiladores Suportados
+
+- GCC
+- Clang
+- MinGW (Windows)
+- Outros compiladores de C
 
 
 # Documentação de Testes de Algoritmo
