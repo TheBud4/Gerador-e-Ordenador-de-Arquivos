@@ -12,12 +12,34 @@ Os principais objetivos do projeto incluem o entendimento de algoritmos de orden
 - **Ordenação de Arquivos**: Aplicação dos algoritmos de ordenação nos arquivos gerados, resultando em novos arquivos organizados.
 - **Interface de Linha de Comando**: Interação com o programa através de comandos no terminal, facilitando o uso e a automação de tarefas.
 
+
 ## Como Usar
 
-1. Clone o repositório para sua máquina local.
-2. Navegue até o diretório do projeto.
-3. Compile o programa utilizando o compilador de sua preferência.
-4. Execute o programa através da linha de comando, seguindo as instruções fornecidas.
+1. Clone o repositório para sua máquina local:
+
+```bash
+git clone https://github.com/TheBud4/Gerador-e-Ordenador-de-Arquivos.git
+```
+
+2. Navegue até o diretório do projeto:
+
+```bash
+cd Gerador-e-Ordenador-de-Arquivos/     
+```
+
+3. Compile o programa utilizando o compilador de sua preferência. Por exemplo, se você estiver usando o `gcc` (GNU Compiler Collection), execute o seguinte comando:
+
+```bash
+gcc -o meu_programa main.c
+```
+
+Se você estiver utilizando outro compilador, ajuste o comando conforme necessário.
+
+4. Execute o programa através da linha de comando:
+
+```bash
+./meu_programa
+```
 
 
 # Documentação de Testes de Algoritmo
